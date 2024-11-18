@@ -6,52 +6,143 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Latihan Bootstrap</title>
+    <title>My Portofolio | Nazwa Fatia Ivanka</title>
 </head>
-<body>
+<body id="home">
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Blog Pribadi</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="profile.html">Profile</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <!-- Navbar End -->
-
-    <!-- Carousel Start -->
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/junji ito 1.jpg" class="d-block w-100" alt="junji ito 1">
-        </div>
-        <div class="carousel-item">
-          <img src="images/junji ito 2.jpg" class="d-block w-100" alt="junji ito 2">
-        </div>
-        <div class="carousel-item">
-          <img src="images/junji ito 3.jpg" class="d-block w-100" alt="junji ito 3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Nazwa Fatia Ivanka</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    </nav>
+    <!-- Navbar End -->
+
+<!-- Jumbotron Start -->
+<section class="jumbotron text-center">
+  <img src="images/profile.jpg" alt="Nazwa Fatia" width="200" class="rounded-circle img-thumbnail">
+  <h1 class="display-4">Nazwa Fatia Ivanka</h1>
+  <p class="lead fst-italic">Mahasiswi On Going | S1 Sistem Informasi</p>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L34.3,186.7C68.6,181,137,171,206,181.3C274.3,192,343,224,411,213.3C480,203,549,149,617,128C685.7,107,754,117,823,149.3C891.4,181,960,235,1029,256C1097.1,277,1166,267,1234,234.7C1302.9,203,1371,149,1406,122.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+</section>
+ <!-- Jumbotron End -->
+
+ <!-- About Start -->
+  <section id="about">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5 text-center">
+        <div class="col-md-4">
+          <p>Saya merupakan mahasiswa program studi S1 Sistem Informasi yang sedang menempuh pendidikan dengan semangat tinggi untuk mengembangkan diri di bidang IT. Dengan latar belakang pendidikan berbasis teknologi, saya memiliki ketertarikan mendalam terhadap pengelolaan data, pengembangan sistem, dan solusi digital yang relevan dengan kebutuhan dunia modern.</p>  
+        </div>
+        <div class="col-md-4">
+          <p>Meimilki pengalaman kerja di industri Food and Beverage (FnB), termasuk di kitchen, pastry, dan pelayanan di hotel berbintang. Berbekal keahlian manajemen operasional, pelayanan pelanggan, dan wawasan akademis, ia adalah individu fleksibel dan berorientasi solusi. Saya bercita-cita menghubungkan dunia IT dan FnB melalui inovasi yang relevan dan berdampak.</p>
+        </div>
+      </div>
     </div>
-    <!-- Carousel End -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,160L60,138.7C120,117,240,75,360,96C480,117,600,203,720,202.7C840,203,960,117,1080,106.7C1200,96,1320,160,1380,192L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+  </section>
+ <!-- About End -->
+
+ <!-- Projects Start -->
+  <section id="projects">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>My Projects</h2>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card text-center shadow" style=background-color:#e2edff;>
+              <img src="images/project1.jpg" class="card-img-top" alt="projects 1">
+              <div class="card-body">
+                <p class="card-text">Laut Bercerita mengisahkan perjuangan Biru Laut, seorang mahasiswa idealis yang terlibat dalam gerakan perlawanan di era Orde Baru. Melalui kisahnya, novel ini menggambarkan harapan, pengorbanan, dan ancaman rezim otoriter, hingga Laut menjadi salah satu korban "hilang". Dengan narasi emosional, novel ini memotret sisi gelap sejarah Indonesia sekaligus menyuarakan kerinduan akan keadilan dan kemanusiaan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card text-center shadow" style=background-color:#e2edff;>
+              <img src="images/project2.jpg" class="card-img-top" alt="projects 2">
+              <div class="card-body">
+                <p class="card-text">Rakyat yang sadar akan haknya, tidak akan pernah berhenti melawan penindasan, sampai hak itu direngkuh dengan tangan sendiri. <br>  - Massa Aksi, Tan Malaka
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card text-center shadow" style=background-color:#e2edff;>
+              <img src="images/project3.jpg" class="card-img-top" alt="projects 3">
+              <div class="card-body">
+                <p class="card-text">Tidak ada perjuangan besar yang berhasil tanpa konsolidasi yang matang. Kita harus mengorganisir diri sebelum mengorganisir perlawanan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L60,58.7C120,85,240,139,360,160C480,181,600,171,720,138.7C840,107,960,53,1080,53.3C1200,53,1320,107,1380,133.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+  </section>
+  <!-- Project End -->
+
+  <!-- Contact Start -->
+   <section id="id">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,288L60,261.3C120,235,240,181,360,170.7C480,160,600,192,720,181.3C840,171,960,117,1080,106.7C1200,96,1320,128,1380,144L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+   </section>
+   <!-- Contact End -->
+
+   <!-- Footer Start -->
+      <footer class="bg-primary text-white fst-italic text-center pb-5">
+        <p>Created with magic by. <a href="https://www.instagram.com/nazwafivanka/" class="text-white fst-italic">Nazwa Fatia Ivanka</a></p>
+      </footer>
+    <!-- Footer End -->
 </body>
 </html>

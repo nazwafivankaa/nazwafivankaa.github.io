@@ -1,37 +1,9 @@
-/* Style for carousel images */
-.carousel-item img {
-    width: 50%; /* Adjust the width as needed */
-    margin: 0 auto; /* Centers the image */
-    border-radius: 8px; /* Adds rounded corners to images */
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+
 }
 
-/* Navbar styling */
-.navbar {
-    background-color: #f8f9fa; /* Light gray background */
-}
-
-.navbar-brand, .nav-link {
-    color: #343a40 !important; /* Dark gray text for links */
-    font-weight: 500; /* Slightly bold text */
-}
-
-.nav-link:hover {
-    color: #007bff !important; /* Blue text on hover */
-}
-
-/* Carousel indicators styling */
-.carousel-indicators [data-bs-target] {
-    background-color: #007bff; /* Blue dots for indicators */
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    filter: invert(1); /* Makes the controls white for better visibility */
-}
-
-/* General container styling */
-.container {
-    padding: 20px;
-    max-width: 900px;
-    margin: 0 auto;
+#projects {
+    background-color: #e2edff;
 }
